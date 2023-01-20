@@ -1,0 +1,31 @@
+This procedure will be applicable for both froentend and admin panel theme setup.
+-----------------------------------------------------------------------------------
+
+1. copy html theme's 'assets' folder where js,css etc files/folders are kept.
+2. go to newly installed laravel project/public and make a new folder name 'backend' and paste html theme's 'assets'.
+3. create a new folder 'admin' into resources/views.
+4. create 2 file - admin_master.blade.php & index.blade.php into the resources/views/admin folder.
+5. copy index.html page full code from html theme and paste into admin_master.blade.php
+6. To link css,js or others, our common part will be - {{ asset('backend/') }} --- here asset() means public folder.
+
+For example: 
+<link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+will be converted to
+
+<link href="{{ asset('backend/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+Do this for all css,js, img & othar files in admin_master.blade.php. 
+
+7. Find out main content portion  (which will be dynamic e.g <div class="page-content"></div>) 
+except header,sidebar and cut and paste it into index.blade.php
+8. admin_master.blade.php er jei jayga theke 'page-content' div ta kata hoise oikhane @yield('admin') add korte hobe. @yield part tai hobe dynamic.
+9. On the top of index.blade.php file, add @extends('admin.admin_master') and on next line add @section('admin') and on last line @endsection
+10. On web route place load index page like the following :
+Route::get('/dashboard', function () {
+    return view('admin.index');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+11. create a new folder 'body' in resources/views/admin and create 3 files sidebar.blade.php, header.blade.php, footer.blade.php
+12. cut header part from admin_master.blade.php and paster it into header.blade.php.
+13. admin_master.blade.php er jei jayga theke header div ta kata hoise oikhane @include('admin.body.header') add korte hobe.
+14. Do the similar task of process no 12 & 13 for sidebar and footer.
