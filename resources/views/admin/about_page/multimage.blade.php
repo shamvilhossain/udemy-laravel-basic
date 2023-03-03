@@ -20,8 +20,7 @@
                                     <label for="example-text-input" class="col-sm-2 col-form-label">About Multi Image
                                     </label>
                                     <div class="col-sm-10">
-                                        <input name="multi_image[]" class="form-control" type="file" id="image"
-                                            multiple="">
+                                        <input name="multi_image[]" class="form-control" type="file" id="image" multiple="" >
                                     </div>
                                 </div>
                                 <!-- end row -->
