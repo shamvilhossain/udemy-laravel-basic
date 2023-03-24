@@ -71,6 +71,8 @@ Route::controller(AboutController::class)->group(function () {
     Route::post('/update/portfolio', 'UpdatePortfolio')->name('update.protfolio');
     Route::get('/delete/portfolio/{id}', 'DeletePortfolio')->name('delete.portfolio');
 
+    Route::get('/portfolio/details/{id}', 'PortfolioDetails')->name('portfolio.details');
+
 });
 
 require __DIR__.'/auth.php';
