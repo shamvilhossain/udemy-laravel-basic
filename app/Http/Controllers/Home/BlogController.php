@@ -123,6 +123,15 @@ class BlogController extends Controller
 
     }// End Method 
 
+    public function BlogDetails($id){
+
+        $allblogs = Blog::latest()->limit(5)->get();
+        $blogs = Blog::findOrFail($id);
+        $categories = BlogCategory::orderBy('blog_category','ASC')->get();
+        return view('frontend.blog_details',compact('blogs','allblogs','categories'));
+
+    } // End Method 
+
 
 
 
