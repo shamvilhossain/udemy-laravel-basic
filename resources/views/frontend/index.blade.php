@@ -28,13 +28,15 @@
                 <div class="col-xl-3">
                     <div class="services__item">
                         <div class="services__thumb">
-                            <a href="services-details.html"><img src="assets/img/images/services_img01.jpg"
-                                    alt=""></a>
+                            <a href="services-details.html"><img
+                                    src="{{ asset('frontend/assets/img/images/services_img01.jpg') }}" alt=""></a>
                         </div>
                         <div class="services__content">
                             <div class="services__icon">
-                                <img class="light" src="assets/img/icons/services_light_icon01.png" alt="">
-                                <img class="dark" src="assets/img/icons/services_icon01.png" alt="">
+                                <img class="light" src="{{ asset('frontend/assets/img/icons/services_light_icon01.png') }}"
+                                    alt="">
+                                <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon01.png') }}"
+                                    alt="">
                             </div>
                             <h3 class="title"><a href="services-details.html">Business Strategy</a></h3>
                             <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking
@@ -52,13 +54,15 @@
                 <div class="col-xl-3">
                     <div class="services__item">
                         <div class="services__thumb">
-                            <a href="services-details.html"><img src="assets/img/images/services_img02.jpg"
-                                    alt=""></a>
+                            <a href="services-details.html"><img
+                                    src="{{ asset('frontend/assets/img/images/services_img02.jpg') }}" alt=""></a>
                         </div>
                         <div class="services__content">
                             <div class="services__icon">
-                                <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
+                                <img class="light" src="{{ asset('frontend/assets/img/icons/services_light_icon02.png') }}"
+                                    alt="">
+                                <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon02.png') }}"
+                                    alt="">
                             </div>
                             <h3 class="title"><a href="services-details.html">Brand Strategy</a></h3>
                             <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking
@@ -76,13 +80,15 @@
                 <div class="col-xl-3">
                     <div class="services__item">
                         <div class="services__thumb">
-                            <a href="services-details.html"><img src="assets/img/images/services_img03.jpg"
-                                    alt=""></a>
+                            <a href="services-details.html"><img
+                                    src="{{ asset('frontend/assets/img/images/services_img03.jpg') }}" alt=""></a>
                         </div>
                         <div class="services__content">
                             <div class="services__icon">
-                                <img class="light" src="assets/img/icons/services_light_icon03.png" alt="">
-                                <img class="dark" src="assets/img/icons/services_icon03.png" alt="">
+                                <img class="light" src="{{ asset('frontend/assets/img/icons/services_light_icon03.png') }}"
+                                    alt="">
+                                <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon03.png') }}"
+                                    alt="">
                             </div>
                             <h3 class="title"><a href="services-details.html">Product Design</a></h3>
                             <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking
@@ -100,13 +106,16 @@
                 <div class="col-xl-3">
                     <div class="services__item">
                         <div class="services__thumb">
-                            <a href="services-details.html"><img src="assets/img/images/services_img04.jpg"
-                                    alt=""></a>
+                            <a href="services-details.html"><img
+                                    src="{{ asset('frontend/assets/img/images/services_img04.jpg') }}" alt=""></a>
                         </div>
                         <div class="services__content">
                             <div class="services__icon">
-                                <img class="light" src="assets/img/icons/services_light_icon04.png" alt="">
-                                <img class="dark" src="assets/img/icons/services_icon04.png" alt="">
+                                <img class="light"
+                                    src="{{ asset('frontend/assets/img/icons/services_light_icon04.png') }}"
+                                    alt="">
+                                <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon04.png') }}"
+                                    alt="">
                             </div>
                             <h3 class="title"><a href="services-details.html">Visual Design</a></h3>
                             <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking
@@ -124,13 +133,16 @@
                 <div class="col-xl-3">
                     <div class="services__item">
                         <div class="services__thumb">
-                            <a href="services-details.html"><img src="assets/img/images/services_img03.jpg"
-                                    alt=""></a>
+                            <a href="services-details.html"><img
+                                    src="{{ asset('frontend/assets/img/images/services_img03.jpg') }}" alt=""></a>
                         </div>
                         <div class="services__content">
                             <div class="services__icon">
-                                <img class="light" src="assets/img/icons/services_light_icon02.png" alt="">
-                                <img class="dark" src="assets/img/icons/services_icon02.png" alt="">
+                                <img class="light"
+                                    src="{{ asset('frontend/assets/img/icons/services_light_icon02.png') }}"
+                                    alt="">
+                                <img class="dark" src="{{ asset('frontend/assets/img/icons/services_icon02.png') }}"
+                                    alt="">
                             </div>
                             <h3 class="title"><a href="services-details.html">Web Development</a></h3>
                             <p>Strategy is a forward-looking plan for your brand’s behavior. Strategy is a forward-looking
@@ -166,8 +178,10 @@
                     <div class="work__process__item">
                         <span class="work__process_step">Step - 01</span>
                         <div class="work__process__icon">
-                            <img class="light" src="assets/img/icons/wp_light_icon01.png" alt="">
-                            <img class="dark" src="assets/img/icons/wp_icon01.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon01.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon01.png') }}"
+                                alt="">
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Discover</h4>
@@ -179,8 +193,10 @@
                     <div class="work__process__item">
                         <span class="work__process_step">Step - 02</span>
                         <div class="work__process__icon">
-                            <img class="light" src="assets/img/icons/wp_light_icon02.png" alt="">
-                            <img class="dark" src="assets/img/icons/wp_icon02.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon02.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon02.png') }}"
+                                alt="">
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Define</h4>
@@ -192,8 +208,10 @@
                     <div class="work__process__item">
                         <span class="work__process_step">Step - 03</span>
                         <div class="work__process__icon">
-                            <img class="light" src="assets/img/icons/wp_light_icon03.png" alt="">
-                            <img class="dark" src="assets/img/icons/wp_icon03.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon03.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon03.png') }}"
+                                alt="">
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Develop</h4>
@@ -205,8 +223,10 @@
                     <div class="work__process__item">
                         <span class="work__process_step">Step - 04</span>
                         <div class="work__process__icon">
-                            <img class="light" src="assets/img/icons/wp_light_icon04.png" alt="">
-                            <img class="dark" src="assets/img/icons/wp_icon04.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/wp_light_icon04.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/wp_icon04.png') }}"
+                                alt="">
                         </div>
                         <div class="work__process__content">
                             <h4 class="title">Deliver</h4>
@@ -220,7 +240,9 @@
     <!-- work-process-area-end -->
 
     <!-- portfolio-area -->
+
     @include('frontend.home_all.portfolio')
+
     <!-- portfolio-area-end -->
 
     <!-- partner-area -->
@@ -230,28 +252,40 @@
                 <div class="col-lg-6">
                     <ul class="partner__logo__wrap">
                         <li>
-                            <img class="light" src="assets/img/icons/partner_light01.png" alt="">
-                            <img class="dark" src="assets/img/icons/partner_01.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/partner_light01.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/partner_01.png') }}"
+                                alt="">
                         </li>
                         <li>
-                            <img class="light" src="assets/img/icons/partner_light02.png" alt="">
-                            <img class="dark" src="assets/img/icons/partner_02.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/partner_light02.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/partner_02.png') }}"
+                                alt="">
                         </li>
                         <li>
-                            <img class="light" src="assets/img/icons/partner_light03.png" alt="">
-                            <img class="dark" src="assets/img/icons/partner_03.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/partner_light03.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/partner_03.png') }}"
+                                alt="">
                         </li>
                         <li>
-                            <img class="light" src="assets/img/icons/partner_light04.png" alt="">
-                            <img class="dark" src="assets/img/icons/partner_04.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/partner_light04.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/partner_04.png') }}"
+                                alt="">
                         </li>
                         <li>
-                            <img class="light" src="assets/img/icons/partner_light05.png" alt="">
-                            <img class="dark" src="assets/img/icons/partner_05.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/partner_light05.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/partner_05.png') }}"
+                                alt="">
                         </li>
                         <li>
-                            <img class="light" src="assets/img/icons/partner_light06.png" alt="">
-                            <img class="dark" src="assets/img/icons/partner_06.png" alt="">
+                            <img class="light" src="{{ asset('frontend/assets/img/icons/partner_light06.png') }}"
+                                alt="">
+                            <img class="dark" src="{{ asset('frontend/assets/img/icons/partner_06.png') }}"
+                                alt="">
                         </li>
                     </ul>
                 </div>
@@ -278,13 +312,13 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 order-0 order-lg-2">
                     <ul class="testimonial__avatar__img">
-                        <li><img src="assets/img/images/testi_img01.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img02.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img03.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img04.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img05.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img06.png" alt=""></li>
-                        <li><img src="assets/img/images/testi_img07.png" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img01.png') }}" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img02.png') }}" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img03.png') }}" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img04.png') }}" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img05.png') }}" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img06.png') }}" alt=""></li>
+                        <li><img src="{{ asset('frontend/assets/img/images/testi_img07.png') }}" alt=""></li>
                     </ul>
                 </div>
                 <div class="col-xl-5 col-lg-6">
