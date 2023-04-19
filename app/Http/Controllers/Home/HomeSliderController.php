@@ -9,6 +9,10 @@ use Image;
 
 class HomeSliderController extends Controller
 {
+    public function HomeMain(){
+        return view('frontend.index');
+    }// end mehtod 
+    
     public function HomeSlider(){
 
         $homeslide = HomeSlide::find(1);
